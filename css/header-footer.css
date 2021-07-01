@@ -1,0 +1,171 @@
+.navbar-fixed-top .navbar-brand {
+    font-size: 15px;
+    color: white;
+}
+.navbar-fixed-top .navbar-nav > li > a{
+	font-weight: bold;
+	color: white;
+}
+.navbar-fixed-top .navbar-nav > li > a:hover{
+	color: black;
+	background-color: white;
+}
+.navbar-fixed-top .navbar-nav > .active > a{
+	color: black;
+	background-color: white;
+}
+.navbar-fixed-top>.container-fluid{
+	background-color: black;
+	padding-right: 20%;
+    padding-left: 20%;
+}
+.page-header{
+	height: 100px;
+	padding-right: 20%;
+    padding-left: 20%;
+    border-bottom: 5px solid black;
+    margin-bottom: 1px;
+}
+#logo-image {
+    float: left;
+    height: 100%;
+    padding-top: 30px;
+}
+#logo-image img{
+	height: 50px;
+	width: 50px;
+	border-radius: 10%;
+}
+.logo-name{
+	padding-left: 57px;
+	padding-top: 30px;
+	font-family: 'bebas_neueregular',Arial,sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+.logo-name>a{
+	color: darkred;
+}
+.logo-name>a:hover{
+	text-decoration: none;
+}
+#header-bottom{
+	height: 45px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.navbar {
+    min-height: 0px;
+}
+.nav-second>.container-fluid{
+	background-color: white;
+	margin-right: 20%;
+    margin-left: 20%;
+}
+.navbar-left>li>a{
+	background:url(../images/background/menu-a-bg.png) no-repeat right center;
+	font-family:'bebas_neueregular',Arial,sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: dimgray;
+}
+.navbar-default .navbar-nav .active a{
+	color:black !important;
+	background-color: white !important;
+} 
+.navbar-left li:last-child a {
+    background: none;
+}
+.nav-second .navbar-left > li > a:hover{
+	color: darkred;
+	text-decoration: underline;
+	background-color: white;
+}
+.nav-second .navbar-nav .active a{
+	color:darkred !important;
+} 
+.navbar-collapse {
+    padding-left: 0px;
+}
+#header-bottomsecond{
+	position: relative;
+	margin: 1px 0 1px 0;
+	height: 35px;
+	background-color: #272625;
+	padding-right: 20%;
+    padding-left: 20%;
+    overflow: hidden;
+}
+.bottomsecond-content{
+	display: flex;
+	justify-content: space-between;
+}
+.clearfix {
+	display: inline-block;
+	width: 50%;
+}
+.clearfix>h6{
+	float: left;
+	color: white;
+	background: url(../images/background/spot-light-bg.png)no-repeat scroll right center transparent;;
+	font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 15px;
+    margin-bottom: 0;
+    margin-right: 5px;
+    padding-left: 10px;
+    padding-right: 20px;
+    text-transform: uppercase;
+}
+.marqueefirst{
+	overflow: hidden;
+	position: relative;
+	font-size: 8px;
+	padding-top: 9px;
+	width: 50%;
+	color: darkgrey;
+}
+.marqueefirst a{
+	color: darkgrey;
+}
+.navbar-form{
+	margin-top: 6px;
+}
+.form-control{
+	border-radius: 0px;
+	height: 20px;
+}
+.from-btn{
+	border-radius: 0px;
+	padding: 0;
+	width: 20px;
+	height: 20px;
+	color: darkgrey;
+	background-color: white;
+}
+.from-btn:hover{
+	color: darkgrey;
+} 
+.container-fluid {
+    padding: 0px;
+}
+
+#footer{
+	padding: 15px;
+	background-color: black;
+	color: darkgrey;
+}
+.footer-first{
+	font-size: 12px;
+	text-align: center;
+}
+.footer-second{
+	font-size: 12px;
+    color: #a3a9b5;
+    text-align: center;
+    padding-top: 5px;
+    line-height: 24px;
+}
